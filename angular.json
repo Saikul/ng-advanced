@@ -121,8 +121,13 @@
               "devServerTarget": "ng5more:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "ng5more"
 }
